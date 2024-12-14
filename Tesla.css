@@ -1,0 +1,193 @@
+
+body{
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://t4.ftcdn.net/jpg/02/43/75/73/360_F_243757367_gBpS6R5c8DB7pL5gw9gi9KXlzFfbdZOA.jpg");
+ }
+ /* Container to align h1 and GIF horizontally */
+.title-gif-container {
+  display: flex; /* Enables flexbox */
+  align-items: center; /* Vertically centers the items */
+  justify-content: flex-end; /* Aligns items to the left */
+  gap: 40px; /* Adds space between the title and the GIF */
+  margin-bottom: 20px; /* Optional margin below the title + GIF */
+}
+
+/* Styling for h1 */
+h1 {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-size: 50px; /* Increase the size */
+  text-align: center;
+  margin: 0;
+  padding: 50px 0;
+  color: #a93226;
+  text-shadow: 2px 2px 2px White;
+}
+
+/* Styling for the electric GIF */
+.title-gif-container img {
+  width: 100px; /* Set the width of the GIF */
+  height: auto; /* Maintain the aspect ratio */
+  display: block; /* Ensures it’s treated as a block element */
+}
+
+
+/* Container to align all marquees on the same line */
+.marquee-container {
+  display: flex; /* Use flexbox to align them horizontally */
+  justify-content: center; /* Center the content horizontally */
+  gap: 20px; /* Add space between marquee elements */
+}
+
+/* Apply rainbow colors to the text inside the marquee */
+.marquee-text {
+  font-size: 30px;
+  font-weight: bold;
+  white-space: nowrap;
+  display: inline-block;
+  animation: rainbow 10s linear infinite; /* Apply the rainbow effect */
+  padding: 10px;
+}
+
+/* Rainbow animation */
+@keyframes rainbow {
+  0% {
+      color: red;
+  }
+  14% {
+      color: orange;
+  }
+  28% {
+      color: yellow;
+  }
+  42% {
+      color: green;
+  }
+  57% {
+      color: blue;
+  }
+  71% {
+      color: indigo;
+  }
+  85% {
+      color: violet;
+  }
+  100% {
+      color: red;
+  }
+}
+
+.counter-container {
+  font-family: 'Comic Sans MS', cursive, sans-serif;  /* Fun retro font */
+  font-size: 30px;  /* Large font size */
+  color: #00FF00;   /* Neon Green */
+  text-align: center;  /* Center the counter */
+  text-shadow: 0 0 10px #00FF00, 0 0 20px #00FF00, 0 0 30px #00FF00;  /* Glowing neon effect */
+  margin-top: 20px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);  /* Semi-transparent background */
+  border-radius: 10px;
+  border: 2px solid #000;
+}
+
+#hitCounter {
+  font-size: 50px;  /* Larger font size for the counter */
+  color: #FFFFFF;   /* White text */
+  font-weight: bold;
+}
+
+
+
+ .gif-container {
+    text-align: center; /* Center the GIF horizontally */
+    margin-top: 20px; /* Optional margin to provide space between GIF and content */
+}
+
+/* Make the GIF smaller if needed */
+.gif-container img {
+    width:50%;
+    max-width: 200px;
+    height: auto; /* Maintain the aspect ratio */
+    display: block; /* Ensures the GIF is treated as a block element */
+    margin: 0 auto; /* Centers the GIF */
+}
+  .grid-container {
+    display: flex; /* Use flexbox to arrange items in a row */
+    justify-content: center; /* Center the images horizontally */
+    gap: 10px; /* Add space between images */
+  }
+  
+  .grid-container img {
+    width: 150px; /* Set a specific size for the images */
+    height: auto; /* Maintain the aspect ratio */
+  }
+.frame-container {
+  display: flex; /* Align frames in a row */
+  justify-content: space-between; /* Distribute space between the frames */
+  align-items: center; /* Center the frames vertically */
+  margin: 50px; /* Add some margin around the container */
+}
+
+/* Styles for the frames */
+.frame {
+  background-color: #e14c2b; /* Green background */
+  padding: 10px;
+  border-radius:10 px; /* Rounded corners */
+  width: 24%; /* Make each frame take 45% of the container */
+  border: 2px solid #c0cac4; /* Border color */
+  box-sizing: border-box; /* Ensure padding is included in the width calculation */
+}
+
+/* Title styles */
+.frame h2 {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-size: 24px;
+  color: #fcfeeb;
+  text-align: left;
+}
+
+/* Optional: Align the second title on the right */
+.frame.right h2 {
+  text-align: center; /* Align right for the second frame */
+}
+
+/* Text inside frames */
+.frame p {
+  font-family: 'Brush Script MT', cursive;
+  color: #0d4bdc;
+  font-size: 18px;
+}
+.price-tag {
+  background: linear-gradient(45deg, #1d2ae7, #ffc300);
+  color: #ffffff;
+  border: 3px solid #e1e90b;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  animation: pulse 1.5s infinite;
+}
+
+/* Price Label */
+.label {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+/* Price Text */
+.price {
+  font-size: 10em;
+  font-weight: bold;
+}
+
+/* Animation */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+
+

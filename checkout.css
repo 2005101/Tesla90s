@@ -1,0 +1,24 @@
+body{
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://t4.ftcdn.net/jpg/02/43/75/73/360_F_243757367_gBpS6R5c8DB7pL5gw9gi9KXlzFfbdZOA.jpg");
+ }
+ h1 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 70px; /* Increase the size */
+    text-align: center;
+    margin: 0;
+    padding: 50px 0;
+    color: #5029b3;
+    text-shadow: 2px 2px 2px White;
+  }
+p {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 40px; /* Increase the size */
+    text-align: center;
+    margin: 0;
+    padding: 50px 0;
+    color: #5029b3;
+    text-shadow: 2px 2px 2px White;
+  }
