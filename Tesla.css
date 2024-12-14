@@ -7,11 +7,11 @@ body{
  }
  /* Container to align h1 and GIF horizontally */
 .title-gif-container {
-  display: flex; /* Enables flexbox */
-  align-items: center; /* Vertically centers the items */
-  justify-content: flex-end; /* Aligns items to the left */
-  gap: 40px; /* Adds space between the title and the GIF */
-  margin-bottom: 20px; /* Optional margin below the title + GIF */
+  display: flex; 
+  align-items: center; 
+  justify-content: flex-end; 
+  gap: 40px;
+  margin-bottom: 20px; 
 }
 
 /* Styling for h1 */
@@ -33,7 +33,6 @@ h1 {
 }
 
 
-/* Container to align all marquees on the same line */
 .marquee-container {
   display: flex; /* Use flexbox to align them horizontally */
   justify-content: center; /* Center the content horizontally */
@@ -50,7 +49,7 @@ h1 {
   padding: 10px;
 }
 
-/* Rainbow animation */
+/* Rainbow color animation */
 @keyframes rainbow {
   0% {
       color: red;
@@ -79,21 +78,21 @@ h1 {
 }
 
 .counter-container {
-  font-family: 'Comic Sans MS', cursive, sans-serif;  /* Fun retro font */
-  font-size: 30px;  /* Large font size */
-  color: #00FF00;   /* Neon Green */
-  text-align: center;  /* Center the counter */
-  text-shadow: 0 0 10px #00FF00, 0 0 20px #00FF00, 0 0 30px #00FF00;  /* Glowing neon effect */
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  font-size: 30px;
+  color: #00FF00;   
+  text-align: center;
+  text-shadow: 0 0 10px #00FF00, 0 0 20px #00FF00, 0 0 30px #00FF00;  
   margin-top: 20px;
   padding: 10px;
-  background-color: rgba(0, 0, 0, 0.5);  /* Semi-transparent background */
+  background-color: rgba(0, 0, 0, 0.5);  
   border-radius: 10px;
   border: 2px solid #000;
 }
 
 #hitCounter {
-  font-size: 50px;  /* Larger font size for the counter */
-  color: #FFFFFF;   /* White text */
+  font-size: 50px;
+  color: #FFFFFF;   
   font-weight: bold;
 }
 
@@ -101,7 +100,7 @@ h1 {
 
  .gif-container {
     text-align: center; /* Center the GIF horizontally */
-    margin-top: 20px; /* Optional margin to provide space between GIF and content */
+    margin-top: 20px; 
 }
 
 /* Make the GIF smaller if needed */
@@ -115,7 +114,7 @@ h1 {
   .grid-container {
     display: flex; /* Use flexbox to arrange items in a row */
     justify-content: center; /* Center the images horizontally */
-    gap: 10px; /* Add space between images */
+    gap: 10px; 
   }
   
   .grid-container img {
@@ -124,22 +123,20 @@ h1 {
   }
 .frame-container {
   display: flex; /* Align frames in a row */
-  justify-content: space-between; /* Distribute space between the frames */
+  justify-content: space-between; 
   align-items: center; /* Center the frames vertically */
-  margin: 50px; /* Add some margin around the container */
+  margin: 50px; 
 }
 
-/* Styles for the frames */
 .frame {
   background-color: #e14c2b; /* Green background */
   padding: 10px;
-  border-radius:10 px; /* Rounded corners */
+  border-radius:10 px; 
   width: 24%; /* Make each frame take 45% of the container */
-  border: 2px solid #c0cac4; /* Border color */
-  box-sizing: border-box; /* Ensure padding is included in the width calculation */
+  border: 2px solid #c0cac4; 
+  box-sizing: border-box; 
 }
 
-/* Title styles */
 .frame h2 {
   font-family: 'Comic Sans MS', cursive, sans-serif;
   font-size: 24px;
@@ -147,7 +144,6 @@ h1 {
   text-align: left;
 }
 
-/* Optional: Align the second title on the right */
 .frame.right h2 {
   text-align: center; /* Align right for the second frame */
 }
